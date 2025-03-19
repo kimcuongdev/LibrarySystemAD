@@ -1,0 +1,11 @@
+UC Quản lý Đặt mượn sách:
+	- Actor: Người dùng, Thủ thư
+	- Hoạt động:
+		+ Người dùng muốn đặt mượn sách cần tìm kiếm sách cần đặt trên cơ sở dữ liệu thư viện, có thể tìm kiếm theo tác giả, theo tên môn học, theo tên sách hoặc theo số seri. Sau khi tìm kiếm sách, người dùng có thể xem thông tin chi tiết sách và đặt mượn sách. Đơn mượn của người dùng sẽ được gửi đến chờ thủ thư duyệt và sẽ được thủ thư thông báo lại trạng thái đơn mượn 
+		+ Người dùng có thể xem danh sách sách đã đặt mượn và tiến hành hủy đặt mượn nếu muốn, trạng thái hủy đặt mượn cũng sẽ được thủ thư thông báo lại.
+		+ Thủ thư có thể cập nhật trạng thái sách (số lượng có thể đặt mượn trên thư viện)
+	- Chú thích:
+		+ Trạng thái của sách trong đơn mượn có thể là:
+			- Chờ sách có sẵn -> Chờ duyệt -> Đã đặt mượn -> Đã mượn -> Đã trả
+		+ Tương ứng trạng thái của sách là:
+			- Không có sẵn -> Có sẵn: 'số lượng sách'
