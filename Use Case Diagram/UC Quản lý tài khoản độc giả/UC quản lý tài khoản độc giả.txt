@@ -1,0 +1,6 @@
+UC quản lý tài khoản độc giả:
+	- Actor: Thủ thư, Người dùng
+	- Hoạt động: 
+		+ Thủ thư có thể xem danh sách tài khoản độc giả, có thể chọn 1 tài khoản cụ thể để xem thông tin chi tiết của tài khoản đó. 
+		+ Thủ thư có thể tìm kiếm tài khoản cụ thể theo tên, cccd, mã số đăng ký tài khoản để xem thông tin chi tiết của 1 tài khoản. 
+		+ Trong khi xem thông tin chi tiết của 1 tài khoản cụ thể, thủ thư có thể khóa tài khoản hoặc xóa tài khoản. Khi tài khoản của người dùng bị khóa, người dùng sẽ nhận được thông báo.
