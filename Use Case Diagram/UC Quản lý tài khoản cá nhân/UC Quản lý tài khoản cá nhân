@@ -1,0 +1,12 @@
+UC Quản lý tài khoản cá nhân
+    - Các Actor
+        + Người dùng: Đại diện cho tất cả các người sử dụng hệ thống, bao gồm người mượn sách.
+        + Người mượn
+        + Thủ thư
+    - Các Use Case và hoạt động
+        + Thủ thư hoặc người mượn có thể tự đăng ký tài khoản và chỉnh sửa thông tin cá nhân
+        + Người mượn có thể xem danh sách các sách đang mượn , đã mượn
+        + Người mượn có thể xem danh sách các hóa đơn đã, chưa từng phải thanh toán ( đền bù do hỏng , mất sách)
+        + Người mượn có thể gia hạn thẻ mượn sách nếu có thông báo hoặc có thể gia hạn khi xem trang thái thẻ thư viện
+    - Chú thích:
+        +Khi người mượn gia hạn thẻ thì phải gửi thông báo cho thủ thư
