@@ -1,0 +1,8 @@
+ UC Quản lý mượn trả sách:
+	- Actor: Người dùng, Thủ thư
+	- Hoạt động:
+		+ Người dùng sau khi mượn được sách sẽ xác nhận lên hệ thống.
+		+ Khi sách đến hạn trả, người dung sẽ nhận được thông báo, có thể lựa chọn phương án gia hạn sách hoặc không.
+		+ Người dùng khi sử dụng xong đem sách trao trả lại cho thủ thư
+		+ Khi người dùng trả sách quá hạn hoặc làm hỏng hóc, thủ thư sẽ tính toán chi phí và gửi thông báo phạt đến người dung, sau đó người dùng sẽ thanh toán phí phạt cho thủ thư
+
