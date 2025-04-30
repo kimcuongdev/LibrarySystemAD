@@ -1,0 +1,15 @@
+- Thủ thư từ chối / hủy bỏ đơn đặt mượn:
+	+ Đơn ban đầu có trạng thái chờ xác nhận (tức thủ thư từ chối khi sách trong đơn đã được đặt mượn):
+		- Cập nhật trạng thái thành bị từ chối
+		- Gửi thông báo cho độc giả
+	+ Đơn ban đầu có trạng thái đã xác nhận (tức thủ thư từ chối do độc giả đặt mượn mà không đến mượn):
+		- Cập nhật trạng thái thành đã hủy
+		- Cập nhật trạng thái sách và cập nhật số lượng sách còn sẵn sàng của đầu sách
+		- Gửi thông báo cho độc giả
+
+- Thủ thư xác nhận đơn đặt mượn:
+	+ Đơn ban đầu có trạng thái chờ xác nhận:
+		- Cập nhật trạng thái sách và số lượng sách còn sẵn sàng của đầu sách
+		- Cập nhật danh sách sách đang đặt mượn của người dùng
+		- Cập nhật trạng thái của đơn đặt mượn
+		- Gửi thông báo cho người dùng
