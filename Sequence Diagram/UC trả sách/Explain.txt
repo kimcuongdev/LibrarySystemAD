@@ -1,0 +1,12 @@
+-Actor người mượn thông báo trả sách
++ người mượn gửi thông báo trả sách( kể cả khi mất sách)
+-Actor thủ thư cập nhật trạng thái sách
++ chọn sách muốn cập nhật 
++ thủ thư cập nhật trạng thái sách luôn nếu sách dược mang trả
+-Actor thủ thư tạo hóa dơn
++ nếu sách mất hoặc hư hỏng thủ thư sẽ tạo hóa dơn
++ sau  trạng thái sách sẽ được cập nhật 
++ cuối cùng hệ thống sẽ thêm thông báo gửi dến sinh viên
+-Actor người mượn thanh toán hóa dơn
++ chọn hóa dơn muốn thanh toán
++ khi thực hiện thanh toán(bằng ngân hàng) app sẽ chuyển tiếp qua app ngân hàng dể thực hiện thanh toán (việc thanh toán sẽ do ngân hàng phụ trách và chờ ngân hàng gửi lại phản hồi)
